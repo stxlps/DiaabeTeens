@@ -1,12 +1,14 @@
+/* === Reset básico === */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* === Fondo general === */
 body {
   font-family: Arial, sans-serif;
-  background-color: #ebf094;
+  background-color: #ebf094; /* Fondo amarillo verdoso */
   color: #333;
   line-height: 1.6;
   min-height: 100vh;
@@ -64,8 +66,9 @@ body {
   cursor: pointer;
 }
 .logo-img {
-  margin-top: 15px;
-  max-width: 150px;
+  background-color: #ebf094;
+  margin-top: 30px;
+  max-width: 250px;
   height: auto;
   display: block;
   margin-left: auto;
