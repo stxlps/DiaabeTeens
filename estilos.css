@@ -63,7 +63,14 @@ body {
   transform: scale(1.05);
   cursor: pointer;
 }
-
+.logo-img {
+  margin-top: 15px;
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* === MENÚ DESPLEGABLE === */
 .dropdown {
   position: relative;
